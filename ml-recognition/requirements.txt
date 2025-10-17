@@ -1,0 +1,18 @@
+torch==2.9.0
+torchvision==0.24.0
+torchaudio==2.9.0
+facenet-pytorch==2.5.3
+opencv-python==4.12.0.88
+numpy==2.2.6
+k    
+
+1)activate venv310:
+    powershell -NoProfile -ExecutionPolicy Bypass -Command "& { . .venv310\Scripts\Activate }"
+
+2)to create our database:
+    i)python add_face_from_webcam.py
+    ii)C:/Users/Thiyanesh/OneDrive/Documents/kaaval/.venv310/Scripts/python.exe add_face_from_webcam.py
+
+3)to run our model:
+    i)python kaaval.py
+    ii)C:/Users/Thiyanesh/OneDrive/Documents/kaaval/.venv310/Scripts/python.exe kaaval.py
